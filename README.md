@@ -5,7 +5,7 @@
 A free, standalone desktop companion for Digital Personal Data Protection Act
 (DPDPA) readiness — a Gap Assessment, Data Flow Mapping with an auto-generated
 RoPA, and a 90-day compliance roadmap. Fully local: SQLite storage, no
-network calls, no telemetry. Built with [Wails](https://wails.io) (Go + React).
+network calls, no telemetry.
 
 <img width="1337" height="803" alt="image" src="https://github.com/user-attachments/assets/70ff6580-9906-42a3-917f-fc16002dfe3c" />
 
@@ -25,8 +25,7 @@ executable is:
 - **New** — a freshly built binary has no download history or reputation in
   Microsoft's cloud scoring, which both Defender and SmartScreen lean on
   heavily for unsigned files.
-- **A statically-linked Go binary** — Go (and therefore [Wails](https://wails.io),
-  which this app is built with) produces a single self-contained executable.
+- This app single self-contained executable.
   That packing pattern coincidentally overlaps with how some real malware is
   packaged, which trips heuristic/ML detections (commonly surfaced as
   `Trojan:Win32/Wacatac.B!ml` or a generic "behavior" detection) on binaries
