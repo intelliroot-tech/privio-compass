@@ -7,6 +7,8 @@ A free, standalone desktop companion for Digital Personal Data Protection Act
 RoPA, and a 90-day compliance roadmap. Fully local: SQLite storage, no
 network calls, no telemetry. Built with [Wails](https://wails.io) (Go + React).
 
+<img width="1337" height="803" alt="image" src="https://github.com/user-attachments/assets/70ff6580-9906-42a3-917f-fc16002dfe3c" />
+
 > **⚠️ Windows Defender / SmartScreen may flag `privio-compass.exe` on first run.**
 > This is a known false positive common to unsigned, freshly-built
 > binaries — see **[SECURITY.md](./SECURITY.md)** for why it happens, the
