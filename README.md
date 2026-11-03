@@ -81,6 +81,17 @@ except the two explicit "Visit website" / "Watch video" buttons (which open
 your system browser — they don't run inside the app), and ships no analytics
 or telemetry.
 
+## Quick read for Linux
+Running it standalone (no install):
+
+chmod +x privio-compass
+./privio-compass
+Needs a desktop session — it's a GTK window, not a headless/server binary.
+
+Runtime dependencies (verified via ldd, both present on any normal desktop Linux):
+
+sudo apt install libgtk-3-0 libwebkit2gtk-4.1-0
+
 ## Reporting a real issue
 
 If you believe you've found an actual security issue (not an AV false
